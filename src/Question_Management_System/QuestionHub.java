@@ -6,14 +6,14 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Quiz {
+public class QuestionHub {
     private HashMap<String, String[]> questionsAndOptions;
     private HashMap<String, Character> correctAnswers;
     private List<String> listOfIncorrectAnswers;
     private int score;
 
 
-    public Quiz() {
+    public QuestionHub() {
         questionsAndOptions = new HashMap<>();
         correctAnswers = new HashMap<>();
         listOfIncorrectAnswers = new ArrayList<>();
